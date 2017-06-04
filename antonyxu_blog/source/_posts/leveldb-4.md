@@ -37,4 +37,4 @@ tags:
 13. 最后是footer，footer中存放了metaindex和index的偏移信息，将footer信息写入到文件中
 
 
-【作者：antonyxu   https://antonyxux.github.io/】
+【作者：antonyxu   https://antonyxux.github.io/ 】
