@@ -114,7 +114,7 @@ struct TableBuilder::Rep {
   // data block添加到table中时会压缩block，这个变量是用来存储压缩后的内容
   std::string compressed_output;
 
-  // rep够着方法
+  // rep构造方法
   Rep(const Options& opt, WritableFile* f)
       : options(opt),
         index_block_options(opt),
