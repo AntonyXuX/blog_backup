@@ -7,6 +7,8 @@ tags:
   - C++
 ---
 
+> 版权声明：本文为博主原创文章，未经博主允许不得转载。
+
 `leveldb` 作为一个 `key-value` 数据库，它和 `redis` 的区别在于不仅没有把所有的数据放在内存中，而是把大部分数据放在了磁盘中
 #### `leveldb` 存数据的流程
 1. 先指定一块内存写数据（这块内存称为 `MemTable`），当占用的内存高于阈值后，将这块内存转为只读（这块只读内存称为 `Immutable MemTable`）
@@ -400,3 +402,5 @@ Slice BlockBuilder::Finish() {
 }
 
 ```
+
+【作者：antonyxu   https://antonyxux.github.io/】
